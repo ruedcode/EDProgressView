@@ -24,7 +24,7 @@ public class EDProgressView: MBProgressHUD {
 	fileprivate class var currentWindow : UIWindow {
 		get {
 			let window = UIApplication.shared.windows.last
-			assert(string != nil, "Window does not find!")
+			assert(window != nil, "Window does not find!")
 			return window!
 		}
 	}
